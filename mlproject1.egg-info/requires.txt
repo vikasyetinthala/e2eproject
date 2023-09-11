@@ -1,3 +1,10 @@
 pandas
 numpy
 scikit-learn
+matplotlib
+seaborn
+catboost
+xgboost
+flask
+dill
+dataclasses

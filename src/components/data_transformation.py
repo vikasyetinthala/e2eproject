@@ -69,7 +69,7 @@ class DataTransformation:
             target_feature_test_df=test_df[target_column]
             logging.info(f"applying column transformer on training and testing data")
             input_feature_train_array=preprocessor_obj.fit_transform(input_feature_train_df)
-            input_feature_test_array=preprocessor_obj.fit_transform(input_feature_test_df)
+            input_feature_test_array=preprocessor_obj.transform(input_feature_test_df)
             train_array=np.c_(input_feature_train_array,np.array(target_feature_train_df))
             test_array=np.c_(input_feature_test_array,np.array(target_feature_test_df))
             save_object(file_path=self.data_transformation_config.preprocessor_obj_file_path,obj=preprocessor_obj)

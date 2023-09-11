@@ -1,0 +1,6 @@
+[2023-09-11 07:30:49,619] 224 werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.95:5000 (Press CTRL+C to quit)
+[2023-09-11 07:32:44,730] 224 werkzeug - INFO - 127.0.0.1 - - [11/Sep/2023 07:32:44] "GET /predictdata HTTP/1.1" 200 -
+[2023-09-11 07:32:45,013] 224 werkzeug - INFO - 127.0.0.1 - - [11/Sep/2023 07:32:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
